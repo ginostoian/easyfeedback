@@ -29,6 +29,7 @@ const GlobalStyle = ({ children }) => {
           html {
             scroll-behavior: smooth;
           }
+
           #__next {
             display: flex;
             flex-direction: column;
