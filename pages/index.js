@@ -44,17 +44,17 @@ const Home = ({ allFeedback, site }) => {
           <Icon color="black" name="logo" size="48px" mb={2} />
           <Text mb={4} fontSize="lg" py={4}>
             <Text as="span" fontWeight="bold" display="inline">
-              Fast Feedback
+              Easy Feedback
             </Text>
-            {' was built as part of '}
-            <Link
+            {' is a hassle free way your customers to engage with your content. '}
+            {/* <Link
               href="https://react2025.com"
               isExternal
               textDecoration="underline"
             >
               React 2025
-            </Link>
-            {`. It's the easiest way to add comments or reviews to your static site. Try it out by leaving a comment below. After the comment is approved, it will display below.`}
+            </Link> */}
+            {` It's the easiest way to add comments or reviews to your static site. Try it out by leaving a comment below. After the comment is approved, it will display below.`}
           </Text>
           {auth.user ? (
             <Button

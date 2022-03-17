@@ -29,8 +29,8 @@ const FeedbackUsage = () => (
 
     <Stat>
       <StatLabel color="gray.700">Sites</StatLabel>
-      <StatNumber fontWeight="medium">1/∞</StatNumber>
-      <StatHelpText>Unlimited Sites</StatHelpText>
+      <StatNumber fontWeight="medium">∞</StatNumber>
+      <StatHelpText>Unlimited Sites (Beta)</StatHelpText>
     </Stat>
   </StatGroup>
 );
